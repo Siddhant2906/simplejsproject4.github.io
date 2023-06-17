@@ -31,3 +31,22 @@
      background-color: black;
      color: white;
 }
+
+@media(max-width:600px){
+    .counter{
+        width: 40%;
+    }
+}
+
+
+@media(max-width:500px){
+    .counter{
+        width: 50%;
+    }
+}
+
+@media(max-width:400px){
+    .counter{
+        width: 70%;
+    }
+}
