@@ -1,0 +1,33 @@
+*{
+    margin:0%
+}
+.container{
+    height:100vh;
+   background: linear-gradient(yellow,white);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.counter{
+    border:solid black 2px;
+    height:auto;
+    width: 30%;
+    background-color: rgb(251, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.counter h1{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.buttons:hover{
+     background-color: black;
+     color: white;
+}
